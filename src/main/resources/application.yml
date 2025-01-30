@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: labuk-api-gateway
+#  cloud:
+#    consul:
+#      host: localhost
+#      port: 8500
+#      discovery:
+#        serviceName: ${spring.application.name}
+#    zuul:
+#      routes:
+#        service1:
+#          path: /user/**
+#          url: http://localhost:8082
